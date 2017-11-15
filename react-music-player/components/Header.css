@@ -1,0 +1,24 @@
+.component-header {
+	height: 0.8rem;
+	background-color: #49B778;
+	border-bottom: 1px solid #dfc;
+	text-align: left;
+	padding-left: 0.2rem;
+	font-size: 0.16rem;
+}
+
+.component-header h1 {
+	color: #fff;	
+	-webkit-transform: rotate(-3deg);
+}
+
+.component-header img {
+   position: absolute;
+   left: 0.8rem;
+   top: 0.2rem;
+
+}
+.component-header h1 {
+	padding-left: 1.2rem;
+	line-height: 0.8rem;
+}

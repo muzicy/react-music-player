@@ -1,0 +1,10 @@
+.music-info {
+	position: relative;
+	margin-top: 0.3rem;
+	font-size: 0.12rem;
+	color: #49B778;	
+}
+
+.music-info p {
+	margin-bottom: 0.1rem;
+}

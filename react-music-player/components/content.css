@@ -1,0 +1,91 @@
+.content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 6rem;
+	height: 4rem;
+	margin: auto;	
+}
+
+.title {
+   position: relative;
+   font-size: 0.16rem;
+   top: 0.2rem;      
+}
+
+.title .music-list{
+   font-size: 0.16rem;
+   text-decoration: none;
+   font-weight: bold;
+   color: #F67E34;
+}
+
+.music-left {
+	font-size: 0.14rem;
+	color: #ccc;
+	position: relative;
+	top: 0.8rem;
+}
+
+.music-left i {
+	float: right;
+	color: #000;	
+}
+
+.bgImage {
+	display: inline;
+	position: absolute;
+	top: 0.2rem;
+	right: 0.2rem;	
+}
+
+.bgImage img {
+	border-radius: 0.75rem;	
+}
+
+.image-rotate {	
+	-webkit-animation: move 20s linear infinite;
+	-moz-animation: move 20s linear infinite;
+	-ms-animation: move 20s linear infinite;
+	-o-animation: move 20s linear infinite;
+	animation: move 20s linear infinite;
+	-webkit-animation-fill-mode: forward;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes move {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes move {
+	0% {
+		-moz-transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+@-o-keyframes move {
+	0% {
+		-o-transform: rotate(0deg);
+	}
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+@keyframes move {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+

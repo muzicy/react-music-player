@@ -1,0 +1,25 @@
+.music-control {
+	position: relative;
+	margin-top: 0.5rem;
+	font-size: 0.16rem;
+	height: 0.5rem;
+	width: 50%;
+}
+.music-control i {	
+	font-size: 0.25rem;
+	margin-right: 0.2rem;
+}
+
+.music-volumn  {
+    position: absolute;
+    font-size: 0.12rem;
+	width: 30%;
+	right: 0;
+	top: 0;
+}
+.music-volumn i {
+	font-size: 0.16rem;
+	position: absolute;
+	left: -0.42rem;
+	top: 0.03rem;
+}

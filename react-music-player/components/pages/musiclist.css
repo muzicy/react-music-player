@@ -1,0 +1,27 @@
+.music-list {
+	color: #4B9086;
+	font-size: 0.14rem;
+}
+
+.music-list li {	
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.music-list li.music-item {
+	border-bottom: 1px solid #F69F0C;
+}
+.music-list li.music-item:hover {
+   border-bottom: 1px solid #000;
+}
+.active {
+	color: #F67E34;
+}
+.music-list li.music-item span {	
+	display: inline-block;
+    padding: 0.05rem 0.1rem;
+}
+
+.music-list li.music-item span:last-child {
+	float: right;
+}
